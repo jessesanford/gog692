@@ -181,3 +181,13 @@ org.eclipse.core.internal.resources.ResourceException: The project description f
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2014-02-11 09:12:21.382
 !MESSAGE The project description file (.project) for 'LineModel' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SESSION 2014-02-22 11:44:59.160 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data C:\Users\Joshu0\Documents\GitHub\gog692\JimMower_2014 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-02-22 11:45:04.490
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

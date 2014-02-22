@@ -6,7 +6,7 @@ import javax.swing.*;
 public class Canvas extends JComponent implements MouseListener { 
 	
 	
-	int RADIUS = 10;
+	int RADIUS = 5;
 	Point2f P1, P2;
 	
 	
@@ -22,15 +22,15 @@ public class Canvas extends JComponent implements MouseListener {
 		Graphics2D g2 = (Graphics2D)g; 
 		
 		if (P1 != null) {
-		    g2.fillArc((int) P1.getX() - (RADIUS/2), (int) P1.getY() - (RADIUS/2), RADIUS, RADIUS, 0, 360);
+		    g2.fillArc((int) P1.getX(), (int) P1.getY(), RADIUS, RADIUS, 0, 360);
 		}    
 		if (P2 != null) {
-			g2.fillArc((int) P2.getX() - (RADIUS/2), (int) P2.getY() - (RADIUS/2), RADIUS, RADIUS, 0, 360);   
+			g2.fillArc((int) P2.getX(), (int) P2.getY(), RADIUS, RADIUS, 0, 360);   
 		}	
 		if (P1 != null && P2 != null) {
 			LineSeg L1 = new LineSeg((int) P1.getX(), (int) P1.getY(), (int) P2.getX(), (int) P2.getY()); 
 			g2.drawLine((int) P1.getX(),(int) P1.getY(),(int) P2.getX(),(int) P2.getY());
-			g2.drawString("a = " + L1.getA() + "b = " + L1.getB() + "c = " + L1.getC(), P2.getX() + RADIUS, P2.getY()); 
+			g2.drawString("a = " + L1.getA() + "b = " + L1.getB() + "c = " + L1.getC(), P2.getX() + 4, P2.getY()); 
 		}
 	}
 

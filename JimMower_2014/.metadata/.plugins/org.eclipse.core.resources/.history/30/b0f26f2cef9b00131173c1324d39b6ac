@@ -22,10 +22,10 @@ public class Canvas extends JComponent implements MouseListener {
 		Graphics2D g2 = (Graphics2D)g; 
 		
 		if (P1 != null) {
-		    g2.fillArc((int) P1.getX() - (RADIUS/2), (int) P1.getY() - (RADIUS/2), RADIUS, RADIUS, 0, 360);
+		    g2.fillArc((int) P1.getX() - RADIUS, (int) P1.getY() - RADIUS, RADIUS, RADIUS, 0, 360);
 		}    
 		if (P2 != null) {
-			g2.fillArc((int) P2.getX() - (RADIUS/2), (int) P2.getY() - (RADIUS/2), RADIUS, RADIUS, 0, 360);   
+			g2.fillArc((int) P2.getX() - RADIUS, (int) P2.getY() - RADIUS, RADIUS, RADIUS, 0, 360);   
 		}	
 		if (P1 != null && P2 != null) {
 			LineSeg L1 = new LineSeg((int) P1.getX(), (int) P1.getY(), (int) P2.getX(), (int) P2.getY()); 

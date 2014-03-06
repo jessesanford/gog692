@@ -1,19 +1,27 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+import java.util.*;
 
 public class Canvas extends JComponent implements MouseListener { 
+	
+	private ArrayList<LineSeg> lineSegs;
+	
 	
 	int RADIUS = 10;
 	Point2f P1, P2;
 	
 	public Canvas() {
+		
+		lineSegs = new ArrayList<LineSeg>();
+		
 		P1 = null;
 		P2 = null;	
 		
 		addMouseListener(this);	
 	}
 	
+
 	public void paintComponent( Graphics g) {
 		Graphics2D g2 = (Graphics2D)g; 
 		
@@ -25,10 +33,31 @@ public class Canvas extends JComponent implements MouseListener {
 		}	
 		if (P1 != null && P2 != null) {
 			LineSeg L1 = new LineSeg((int) P1.getX(), (int) P1.getY(), (int) P2.getX(), (int) P2.getY()); 
-			g2.drawLine((int) P1.getX(),(int) P1.getY(),(int) P2.getX(),(int) P2.getY());
-			g2.drawString(" a = " + L1.getA() + " b = " + L1.getB() + " c = " + L1.getC(), P2.getX() + RADIUS, P2.getY()); 
+			lineSegs.add(L1);
+
+			
+			
+			for (int i = 0; i < lineSegs.size(); i++) {
+					
+				LineSeg myCurrentLineSeg = lineSegs.get(i);
+				Point2f myPointP1 = myCurrentLineSeg.getP1();
+				Point2f myPointP2 = myCurrentLineSeg.getP2();
+				g2.fillArc((int) myPointP1.getX() - (RADIUS/2), (int) myPointP1.getY() - (RADIUS/2), RADIUS, RADIUS, 0, 360);
+				g2.fillArc((int) myPointP2.getX() - (RADIUS/2), (int) myPointP2.getY() - (RADIUS/2), RADIUS, RADIUS, 0, 360);
+				g2.drawLine((int) myPointP1.getX(), (int) myPointP1.getY(), (int) myPointP2.getX(), (int) myPointP2.getY());
+
+			}
+			
+			P1 = null;
+			P2 = null;
+		
+			
+		
+			
 		}
 	}
+
+	
 
 	@Override
 	public void mouseClicked(MouseEvent e) {
@@ -49,6 +78,7 @@ public class Canvas extends JComponent implements MouseListener {
 
 	}
 
+	
 	@Override
 	public void mouseEntered(MouseEvent e) {
 		// TODO Auto-generated method stub

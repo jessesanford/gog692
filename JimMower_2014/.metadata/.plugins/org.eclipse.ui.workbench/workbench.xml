@@ -31,29 +31,29 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
 <part id="1"/>
+<part id="0"/>
 <part id="2"/>
 <part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineAnalysis.java" partName="LineAnalysis.java" path="C:/Users/Joshu0/Documents/GitHub/gog692/JimMower_2014/LineAnalysis/src/LineAnalysis.java" title="LineAnalysis.java" tooltip="LineAnalysis/src/LineAnalysis.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LineAnalysis/src/LineAnalysis.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="327" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Canvas.java" partName="Canvas.java" path="C:/Users/Joshu0/Documents/GitHub/gog692/JimMower_2014/MultiLineDrawing/src/Canvas.java" title="Canvas.java" tooltip="MultiLineDrawing/src/Canvas.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MultiLineDrawing/src/Canvas.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="889" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Canvas.java" partName="Canvas.java" path="C:/Users/Joshu0/Documents/GitHub/gog692/JimMower_2014/LineAnalysis/src/Canvas.java" title="Canvas.java" tooltip="LineAnalysis/src/Canvas.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LineAnalysis/src/Canvas.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="1817" selectionOffset="0" selectionTopPixel="743"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MultiLineDrawing.java" partName="MultiLineDrawing.java" path="C:/Users/Joshu0/Documents/GitHub/gog692/JimMower_2014/MultiLineDrawing/src/MultiLineDrawing.java" title="MultiLineDrawing.java" tooltip="MultiLineDrawing/src/MultiLineDrawing.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MultiLineDrawing/src/MultiLineDrawing.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="69" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineSeg.java" partName="LineSeg.java" path="C:/Users/Joshu0/Documents/GitHub/gog692/JimMower_2014/LineAnalysis/src/LineSeg.java" title="LineSeg.java" tooltip="LineAnalysis/src/LineSeg.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LineAnalysis/src/LineSeg.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1205" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineSeg.java" partName="LineSeg.java" path="C:/Users/Joshu0/Documents/GitHub/gog692/JimMower_2014/MultiLineDrawing/src/LineSeg.java" title="LineSeg.java" tooltip="MultiLineDrawing/src/LineSeg.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MultiLineDrawing/src/LineSeg.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="743" selectionTopPixel="315"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point2f.java" partName="Point2f.java" path="C:/Users/Joshu0/Documents/GitHub/gog692/JimMower_2014/LineAnalysis/src/Point2f.java" title="Point2f.java" tooltip="LineAnalysis/src/Point2f.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LineAnalysis/src/Point2f.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="229" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point2f.java" partName="Point2f.java" path="C:/Users/Joshu0/Documents/GitHub/gog692/JimMower_2014/MultiLineDrawing/src/Point2f.java" title="Point2f.java" tooltip="MultiLineDrawing/src/Point2f.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MultiLineDrawing/src/Point2f.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -255,140 +255,19 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LineAnalysis/src/Canvas.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LineAnalysis/src/LineAnalysis.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LineAnalysis/src/Point2f.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=LineAnalysis/src\/Inheritancet.jar&lt;(LineSeg.class"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LineAnalysis/src/LineSeg.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LineAnalysis/src/Canvas.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LineAnalysis/src/LineAnalysis.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LineAnalysis/src/Canvas.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LineAnalysis/src/LineSeg.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LineAnalysis/src/Point2f.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MultiLineDrawing/src/Canvas.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MultiLineDrawing/src/LineAnalysis.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MultiLineDrawing/src/LineSeg.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MultiLineDrawing/src/Point2f.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MultiLineDrawing/src/MultiLineDrawing.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MultiLineDrawing/src/Canvas.java"/>
 </editors>
-<item historyLabel="LineSeg.java" index="0">
-<position info="not_deleted" x="693" y="0"/>
-</item>
-<item historyLabel="LineSeg.class" index="4">
-<position info="not_deleted" x="2935" y="24"/>
-</item>
-<item historyLabel="LineSeg.java" index="0">
-<position info="not_deleted" x="256" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="351" y="0"/>
-</item>
-<item historyLabel="LineSeg.java" index="0">
-<position info="not_deleted" x="276" y="44"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="351" y="0"/>
-</item>
-<item historyLabel="LineSeg.java" index="0">
-<position info="not_deleted" x="276" y="44"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position/>
-</item>
-<item historyLabel="LineSeg.java" index="0">
-<position info="not_deleted" x="276" y="44"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="730" y="0"/>
-</item>
-<item historyLabel="LineSeg.java" index="0">
-<position info="not_deleted" x="1192" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="867" y="0"/>
-</item>
-<item historyLabel="LineSeg.java" index="0">
-<position info="not_deleted" x="1192" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="867" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="862" y="0"/>
-</item>
-<item historyLabel="LineSeg.java" index="0">
-<position info="not_deleted" x="1192" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="862" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="830" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="1267" y="0"/>
-</item>
-<item historyLabel="Point2f.java" index="3">
-<position info="not_deleted" x="133" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="1267" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="1266" y="0"/>
-</item>
-<item historyLabel="Point2f.java" index="3">
-<position info="not_deleted" x="133" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="1266" y="0"/>
-</item>
-<item historyLabel="Point2f.java" index="3">
-<position info="not_deleted" x="133" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="1124" y="0"/>
-</item>
-<item historyLabel="LineSeg.java" index="0">
-<position info="not_deleted" x="1192" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="1124" y="0"/>
-</item>
-<item historyLabel="LineAnalysis.java" index="2">
-<position info="not_deleted" x="329" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="351" y="0"/>
-</item>
-<item historyLabel="LineAnalysis.java" index="2">
-<position info="not_deleted" x="329" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="943" y="0"/>
-</item>
-<item historyLabel="LineAnalysis.java" index="2">
-<position info="not_deleted" x="329" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="595" y="0"/>
-</item>
-<item historyLabel="LineAnalysis.java" index="2">
-<position info="not_deleted" x="329" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="957" y="0"/>
-</item>
-<item historyLabel="LineAnalysis.java" index="2">
-<position info="not_deleted" x="329" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="579" y="0"/>
-</item>
-<item historyLabel="LineAnalysis.java" index="2">
-<position info="not_deleted" x="329" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="579" y="0"/>
-</item>
-<item historyLabel="LineAnalysis.java" index="2">
-<position info="not_deleted" x="329" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="895" y="0"/>
-</item>
 <item historyLabel="LineAnalysis.java" index="2">
 <position info="not_deleted" x="0" y="327"/>
 </item>
@@ -401,14 +280,143 @@
 <item historyLabel="Point2f.java" index="3">
 <position info="not_deleted" x="133" y="0"/>
 </item>
-<item historyLabel="LineSeg.java" index="5">
+<item historyLabel="LineSeg.java" index="4">
 <position info="not_deleted" x="0" y="1351"/>
 </item>
-<item historyLabel="Canvas.java" index="6">
+<item historyLabel="Canvas.java" index="5">
 <position info="not_deleted" x="0" y="1817"/>
 </item>
-<item active="true" historyLabel="LineAnalysis.java" index="7">
-<position info="not_deleted" x="0" y="327"/>
+<item historyLabel="LineAnalysis.java" index="6">
+<position info="not_deleted" x="327" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="7">
+<position info="not_deleted" x="0" y="1817"/>
+</item>
+<item historyLabel="LineSeg.java" index="8">
+<position info="not_deleted" x="1205" y="0"/>
+</item>
+<item historyLabel="Point2f.java" index="9">
+<position info="not_deleted" x="229" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LineAnalysis.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LineSeg.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Point2f.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LineAnalysis.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LineSeg.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Point2f.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LineAnalysis.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MultiLineDrawing.java" index="14">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="MultiLineDrawing.java" index="14">
+<position info="not_deleted" x="69" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MultiLineDrawing.java" index="14">
+<position info="not_deleted" x="69" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position/>
+</item>
+<item historyLabel="LineSeg.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Point2f.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LineSeg.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position info="not_deleted" x="850" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position info="not_deleted" x="1421" y="0"/>
+</item>
+<item historyLabel="LineSeg.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position/>
+</item>
+<item historyLabel="LineSeg.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position/>
+</item>
+<item historyLabel="LineSeg.java" index="12">
+<position info="not_deleted" x="910" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position/>
+</item>
+<item historyLabel="LineSeg.java" index="12">
+<position info="not_deleted" x="743" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position info="not_deleted" x="1709" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position info="not_deleted" x="1121" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position info="not_deleted" x="1330" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position info="not_deleted" x="1188" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position info="not_deleted" x="1330" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position info="not_deleted" x="932" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position/>
+</item>
+<item historyLabel="Canvas.java" index="10">
+<position info="not_deleted" x="889" y="0"/>
+</item>
+<item historyLabel="LineSeg.java" index="12">
+<position info="not_deleted" x="743" y="0"/>
+</item>
+<item historyLabel="Point2f.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MultiLineDrawing.java" index="14">
+<position info="not_deleted" x="69" y="0"/>
+</item>
+<item active="true" historyLabel="Canvas.java" index="15">
+<position info="not_deleted" x="889" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -428,6 +436,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point2f.java" tooltip="MultiLineDrawing/src/Point2f.java">
+<persistable path="/MultiLineDrawing/src/Point2f.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineSeg.java" tooltip="MultiLineDrawing/src/LineSeg.java">
+<persistable path="/MultiLineDrawing/src/LineSeg.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineAnalysis.java" tooltip="MultiLineDrawing/src/LineAnalysis.java">
+<persistable path="/MultiLineDrawing/src/LineAnalysis.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Canvas.java" tooltip="MultiLineDrawing/src/Canvas.java">
+<persistable path="/MultiLineDrawing/src/Canvas.java"/>
+</file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="CastPractice.class" tooltip="CastPractice">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=LineAnalysis/src\/CastPractice.jar&lt;(CastPractice.class"/>
 </file>
@@ -460,18 +480,6 @@
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ConstructorPractice.class" tooltip="ConstructorPractice">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=LineAnalysis/src\/ConstructorPractice.jar&lt;(ConstructorPractice.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="LineSegParamsBad.class" tooltip="LineSegParamsBad">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=LineAnalysis/src\/ConstructorPractice.jar&lt;(LineSegParamsBad.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="LineSegParamsGood.class" tooltip="LineSegParamsGood">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=LineAnalysis/src\/ConstructorPractice.jar&lt;(LineSegParamsGood.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="LineSegGood.class" tooltip="LineSegGood">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=LineAnalysis/src\/ConstructorPractice.jar&lt;(LineSegGood.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="ConstructorPractice.jar" tooltip="LineAnalysis/src/ConstructorPractice.jar">
-<persistable path="/LineAnalysis/src/ConstructorPractice.jar"/>
 </file>
 </mruList>
 </workbench>

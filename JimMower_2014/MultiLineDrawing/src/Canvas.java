@@ -34,8 +34,7 @@ public class Canvas extends JComponent implements MouseListener {
 		if (P1 != null && P2 != null) {
 			LineSeg L1 = new LineSeg((int) P1.getX(), (int) P1.getY(), (int) P2.getX(), (int) P2.getY()); 
 			lineSegs.add(L1);
-
-			
+	
 			
 			for (int i = 0; i < lineSegs.size(); i++) {
 					
@@ -50,9 +49,7 @@ public class Canvas extends JComponent implements MouseListener {
 			
 			P1 = null;
 			P2 = null;
-		
 			
-		
 			
 		}
 	}

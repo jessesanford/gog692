@@ -6,10 +6,12 @@ import MatrixMult.*;
 
 public class Canvas extends JComponent implements MouseListener, MouseMotionListener {
 	
+	ArrayList<Box> boxes;
+	
 	public Canvas () {
 			
-	addMouseListener(this);	
-	addMouseMotionListener(this);
+		addMouseListener(this);	
+		addMouseMotionListener(this);
 	
 	}
 	
@@ -22,7 +24,7 @@ public class Canvas extends JComponent implements MouseListener, MouseMotionList
 	public void mouseClicked(MouseEvent e) {
 		// TODO Auto-generated method stub
 	
-		boxes.add(new Box(arg0.getPoint()));
+		boxes.add(new Box(e.getPoint()));
 		repaint();
 	}
 

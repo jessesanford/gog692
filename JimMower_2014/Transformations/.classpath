@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry exported="true" kind="lib" path="src/MatrixMult.jar"/>
-	<classpathentry exported="true" kind="lib" path="src/vecmath.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Joshu0/Documents/GitHub/gog692/JimMower_2014/Transformations/lib/vecmath.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Joshu0/Documents/GitHub/gog692/JimMower_2014/Transformations/lib/MatrixMult.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

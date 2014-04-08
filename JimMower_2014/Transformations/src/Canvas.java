@@ -12,54 +12,66 @@ public class Canvas extends JComponent implements MouseListener, MouseMotionList
 			
 		addMouseListener(this);	
 		addMouseMotionListener(this);
+		
+		boxes = new ArrayList<Box>();
 	
 	}
 	
 	public void paintComponent( Graphics g) {
 		Graphics2D g2 = (Graphics2D)g; 
 		
+		for (int i = 0; i < boxes.size(); i++) {
+			
+			Box aBox = boxes.get(i); // where b is the int loop index variable
+			g2.drawLine((int)aBox.vertices.get(0).x + aBox.clickPoint.x,
+			       (int)aBox.vertices.get(0).y + aBox.clickPoint.y,
+			       (int)aBox.vertices.get(1).x + aBox.clickPoint.x,
+			       (int)aBox.vertices.get(1).y + aBox.clickPoint.y);
+		}
 	}
 
 	@Override
-	public void mouseClicked(MouseEvent e) {
+	public void mouseClicked(MouseEvent arg0) {
 		// TODO Auto-generated method stub
-	
-		boxes.add(new Box(e.getPoint()));
+	   
+	    Box mybox = new Box(arg0.getPoint());
+		boxes.add(mybox);
+		
 		repaint();
 	}
 
 	@Override
-	public void mouseEntered(MouseEvent e) {
+	public void mouseEntered(MouseEvent arg0) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void mouseExited(MouseEvent e) {
+	public void mouseExited(MouseEvent arg0) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void mousePressed(MouseEvent e) {
+	public void mousePressed(MouseEvent arg0) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void mouseReleased(MouseEvent e) {
+	public void mouseReleased(MouseEvent arg0) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void mouseDragged(MouseEvent e) {
+	public void mouseDragged(MouseEvent arg0) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void mouseMoved(MouseEvent e) {
+	public void mouseMoved(MouseEvent arg0) {
 		// TODO Auto-generated method stub
 		
 	}

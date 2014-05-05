@@ -23,7 +23,7 @@ public class Canvas extends JComponent implements MouseListener {
 	
 	public Canvas() {
 		
-		img = new File("/Users/jsanford/Desktop/map.png");
+		img = new File("map.png");
 		try
 		{
 			bimg = ImageIO.read(img);

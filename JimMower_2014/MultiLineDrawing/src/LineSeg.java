@@ -7,12 +7,6 @@ public class LineSeg {
 	private float c;
 	private double length;
 	
-	public LinSeg() {
-		P1 = new Point2f();
-		P2 = new Point2f();
-		length = 0;
-	}
-	
 	public LineSeg(int startx, int starty, int endx, int endy) {
 		P1 = new Point2f(startx, starty);
 		P2 = new Point2f(endx, endy);

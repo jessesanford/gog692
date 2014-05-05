@@ -1,17 +1,36 @@
 import java.awt.*;
 import java.awt.event.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.util.*;
+
+import java.io.IOException;
+import javax.imageio.ImageIO;
 
 public class Canvas extends JComponent implements MouseListener { 
 	
 	private ArrayList<LineSeg> lineSegs;
-	
+	private File img;
+	private BufferedImage bimg;
+	private Graphics g;
 	
 	int RADIUS = 10;
 	Point2f P1, P2;
 	
 	public Canvas() {
+		
+		img = new File("/Users/jsanford/Desktop/map.png");
+		try
+		{
+			bimg = ImageIO.read(img);
+		}catch(IOException e)
+		{
+			e.printStackTrace();
+		}
 		
 		lineSegs = new ArrayList<LineSeg>();
 		
@@ -23,7 +42,12 @@ public class Canvas extends JComponent implements MouseListener {
 	
 
 	public void paintComponent( Graphics g) {
-		Graphics2D g2 = (Graphics2D)g; 
+		Graphics2D g2 = (Graphics2D)g;
+		
+		//g = bimg.createGraphics();
+		//System.out.println(g.toString());
+		
+		g2.drawImage(bimg, null, 0, 0);
 		
 		if (P1 != null) {
 		    g2.fillArc((int) P1.getX() - (RADIUS/2), (int) P1.getY() - (RADIUS/2), RADIUS, RADIUS, 0, 360);

@@ -43,10 +43,7 @@ public class Canvas extends JComponent implements MouseListener {
 
 	public void paintComponent( Graphics g) {
 		Graphics2D g2 = (Graphics2D)g;
-		
-		//g = bimg.createGraphics();
-		//System.out.println(g.toString());
-		
+
 		g2.drawImage(bimg, null, 0, 0);
 		
 		if (P1 != null) {

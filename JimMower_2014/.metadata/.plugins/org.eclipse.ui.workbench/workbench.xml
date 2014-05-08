@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="34" version="2.0">
+<workbench progressCount="31" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="28" y="27">
 <fastViewData fastViewLocation="1024"/>
@@ -32,13 +32,28 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Canvas.java" partName="Canvas.java" path="C:/Users/Joshu0/Documents/GitHub/gog692/JimMower_2014/MultiLineDrawing/src/Canvas.java" title="Canvas.java" tooltip="MultiLineDrawing/src/Canvas.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MultiLineDrawing/src/Canvas.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="43" selectionOffset="899" selectionTopPixel="360"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DistanceOnMap.java" partName="DistanceOnMap.java" path="C:/Users/Joshu0/Documents/GitHub/gog692/JimMower_2014/DistanceOnMap/src/DistanceOnMap.java" title="DistanceOnMap.java" tooltip="DistanceOnMap/src/DistanceOnMap.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DistanceOnMap/src/DistanceOnMap.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="178" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Canvas.java" partName="Canvas.java" path="C:/Users/Joshu0/Documents/GitHub/gog692/JimMower_2014/DistanceOnMap/src/Canvas.java" title="Canvas.java" tooltip="DistanceOnMap/src/Canvas.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DistanceOnMap/src/Canvas.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1903" selectionTopPixel="810"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineSeg.java" partName="LineSeg.java" path="C:/Users/Joshu0/Documents/GitHub/gog692/JimMower_2014/DistanceOnMap/src/LineSeg.java" title="LineSeg.java" tooltip="DistanceOnMap/src/LineSeg.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DistanceOnMap/src/LineSeg.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point2f.java" partName="Point2f.java" path="C:/Users/Joshu0/Documents/GitHub/gog692/JimMower_2014/DistanceOnMap/src/Point2f.java" title="Point2f.java" tooltip="DistanceOnMap/src/Point2f.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DistanceOnMap/src/Point2f.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -239,42 +254,25 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Transformations/src/Box.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Transformations/src/Canvas.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Transformations/src/Transformations.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Transformations/C:\/Users\/Joshu0\/Downloads\/MatrixMult \(1).jar&lt;MatrixMult(Matrix3dMM.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Transformations/C:\/Users\/Joshu0\/Downloads\/MatrixMult \(1).jar&lt;MatrixMult(Vector3dMM.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Transformations/src/Canvas.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Transformations/C:\/Users\/Joshu0\/Documents\/GitHub\/gog692\/JimMower_2014\/Transformations\/lib\/MatrixMult.jar&lt;MatrixMult(Matrix3dMM.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Transformations/C:\/Users\/Joshu0\/Documents\/GitHub\/gog692\/JimMower_2014\/Transformations\/lib\/MatrixMult.jar&lt;MatrixMult(Vector3dMM.class"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Transformations/src/Box.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Transformations/C:\/Users\/Joshu0\/Downloads\/MatrixMult \(1).jar&lt;MatrixMult(Matrix3dMM.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Transformations/C:\/Users\/Joshu0\/Downloads\/MatrixMult \(1).jar&lt;MatrixMult(Vector3dMM.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Transformations/src/Transformations.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Transformations/C:\/Users\/Joshu0\/Documents\/GitHub\/gog692\/JimMower_2014\/Transformations\/lib\/MatrixMult.jar&lt;MatrixMult(Matrix3dMM.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Transformations/C:\/Users\/Joshu0\/Documents\/GitHub\/gog692\/JimMower_2014\/Transformations\/lib\/MatrixMult.jar&lt;MatrixMult(Vector3dMM.class"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MultiLineDrawing/src/Canvas.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MultiLineDrawing/src/LineSeg.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MultiLineDrawing/src/MultiLineDrawing.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MultiLineDrawing/src/Point2f.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Transformations/C:\/Users\/Joshu0\/Downloads\/MatrixMult \(1).jar&lt;MatrixMult(Matrix3dMM.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Transformations/src/Box.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Transformations/C:\/Users\/Joshu0\/Downloads\/MatrixMult \(1).jar&lt;MatrixMult(Matrix3dMM.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Transformations/C:\/Users\/Joshu0\/Downloads\/MatrixMult \(1).jar&lt;MatrixMult(Vector3dMM.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MultiLineDrawing/src/Canvas.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DistanceOnMap/src/DistanceOnMap.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DistanceOnMap/src/Canvas.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DistanceOnMap/src/LineSeg.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DistanceOnMap/src/Point2f.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DistanceOnMap/src/DistanceOnMap.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DistanceOnMap/src/Canvas.java"/>
 </editors>
-<item historyLabel="Box.java" index="0">
-<position info="not_deleted" x="413" y="0"/>
-</item>
 <item historyLabel="Transformations.java" index="2">
 <position info="not_deleted" x="334" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="1193" y="0"/>
-</item>
-<item historyLabel="Box.java" index="0">
-<position info="not_deleted" x="413" y="0"/>
-</item>
-<item historyLabel="Transformations.java" index="2">
-<position info="not_deleted" x="334" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="1193" y="0"/>
-</item>
-<item historyLabel="Box.java" index="0">
-<position info="not_deleted" x="413" y="0"/>
 </item>
 <item historyLabel="Matrix3dMM.class" index="3">
 <position info="not_deleted" x="0" y="0"/>
@@ -282,15 +280,6 @@
 <item historyLabel="Vector3dMM.class" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Transformations.java" index="2">
-<position info="not_deleted" x="334" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="1193" y="0"/>
-</item>
-<item historyLabel="Box.java" index="0">
-<position info="not_deleted" x="413" y="0"/>
-</item>
 <item historyLabel="Matrix3dMM.class" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
@@ -298,19 +287,22 @@
 <position info="not_deleted" x="334" y="0"/>
 </item>
 <item historyLabel="Canvas.java" index="1">
-<position info="not_deleted" x="1193" y="0"/>
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="Box.java" index="0">
-<position info="not_deleted" x="413" y="0"/>
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="Transformations.java" index="2">
 <position info="not_deleted" x="334" y="0"/>
 </item>
-<item historyLabel="Canvas.java" index="5">
-<position info="not_deleted" x="1193" y="0"/>
+<item historyLabel="Canvas.java" index="1">
+<position info="not_deleted" x="491" y="0"/>
 </item>
-<item historyLabel="Box.java" index="6">
-<position info="not_deleted" x="413" y="0"/>
+<item historyLabel="Box.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Transformations.java" index="6">
+<position info="not_deleted" x="334" y="0"/>
 </item>
 <item historyLabel="Matrix3dMM.class" index="7">
 <position info="not_deleted" x="0" y="0"/>
@@ -318,23 +310,65 @@
 <item historyLabel="Vector3dMM.class" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Box.java" index="6">
-<position info="not_deleted" x="413" y="0"/>
+<item historyLabel="Canvas.java" index="9">
+<position/>
 </item>
-<item historyLabel="Canvas.java" index="5">
-<position info="not_deleted" x="1193" y="0"/>
+<item historyLabel="Canvas.java" index="9">
+<position/>
 </item>
-<item historyLabel="Transformations.java" index="2">
-<position info="not_deleted" x="334" y="0"/>
+<item historyLabel="LineSeg.java" index="10">
+<position/>
 </item>
-<item historyLabel="Canvas.java" index="5">
-<position info="not_deleted" x="1193" y="0"/>
+<item historyLabel="LineSeg.java" index="10">
+<position/>
 </item>
-<item historyLabel="Box.java" index="6">
-<position info="not_deleted" x="413" y="0"/>
+<item historyLabel="MultiLineDrawing.java" index="11">
+<position/>
 </item>
-<item historyLabel="Vector3dMM.class" index="8">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Point2f.java" index="12">
+<position/>
+</item>
+<item historyLabel="MultiLineDrawing.java" index="11">
+<position/>
+</item>
+<item historyLabel="LineSeg.java" index="10">
+<position/>
+</item>
+<item historyLabel="Canvas.java" index="9">
+<position/>
+</item>
+<item historyLabel="MultiLineDrawing.java" index="11">
+<position/>
+</item>
+<item historyLabel="LineSeg.java" index="10">
+<position/>
+</item>
+<item historyLabel="Canvas.java" index="9">
+<position/>
+</item>
+<item historyLabel="LineSeg.java" index="10">
+<position/>
+</item>
+<item historyLabel="Canvas.java" index="9">
+<position/>
+</item>
+<item historyLabel="LineSeg.java" index="10">
+<position/>
+</item>
+<item historyLabel="Canvas.java" index="9">
+<position/>
+</item>
+<item historyLabel="LineSeg.java" index="10">
+<position/>
+</item>
+<item historyLabel="Canvas.java" index="9">
+<position/>
+</item>
+<item historyLabel="MultiLineDrawing.java" index="11">
+<position/>
+</item>
+<item historyLabel="Point2f.java" index="12">
+<position/>
 </item>
 <item historyLabel="Canvas.java" index="9">
 <position info="not_deleted" x="0" y="0"/>
@@ -348,10 +382,10 @@
 <item historyLabel="Point2f.java" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MultiLineDrawing.java" index="11">
+<item historyLabel="LineSeg.java" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Point2f.java" index="12">
+<item historyLabel="Canvas.java" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="LineSeg.java" index="10">
@@ -360,49 +394,31 @@
 <item historyLabel="Canvas.java" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Box.java" index="6">
+<item historyLabel="MultiLineDrawing.java" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Canvas.java" index="5">
+<item historyLabel="LineSeg.java" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Transformations.java" index="2">
-<position info="not_deleted" x="30" y="0"/>
+<item historyLabel="Canvas.java" index="9">
+<position info="not_deleted" x="1893" y="0"/>
 </item>
-<item historyLabel="Matrix3dMM.class" index="13">
+<item historyLabel="DistanceOnMap.java" index="13">
+<position info="not_deleted" x="178" y="0"/>
+</item>
+<item historyLabel="Canvas.java" index="14">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Vector3dMM.class" index="8">
+<item historyLabel="LineSeg.java" index="15">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Transformations.java" index="2">
-<position info="not_deleted" x="30" y="0"/>
-</item>
-<item historyLabel="Canvas.java" index="5">
+<item historyLabel="Point2f.java" index="16">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Box.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="DistanceOnMap.java" index="17">
+<position info="not_deleted" x="178" y="0"/>
 </item>
-<item historyLabel="Canvas.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Transformations.java" index="2">
-<position info="not_deleted" x="30" y="0"/>
-</item>
-<item historyLabel="Transformations.java" index="2">
-<position info="not_deleted" x="30" y="0"/>
-</item>
-<item historyLabel="Box.java" index="14">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Matrix3dMM.class" index="15">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Vector3dMM.class" index="16">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item active="true" historyLabel="Canvas.java" index="17">
+<item active="true" historyLabel="Canvas.java" index="18">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -423,23 +439,17 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Canvas.java" tooltip="MultiLineDrawing/src/Canvas.java">
-<persistable path="/MultiLineDrawing/src/Canvas.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point2f.java" tooltip="DistanceOnMap/src/Point2f.java">
+<persistable path="/DistanceOnMap/src/Point2f.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Vector3dMM.class" tooltip="MatrixMult.Vector3dMM">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Transformations/C:\/Users\/Joshu0\/Downloads\/MatrixMult \(1).jar&lt;MatrixMult(Vector3dMM.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineSeg.java" tooltip="DistanceOnMap/src/LineSeg.java">
+<persistable path="/DistanceOnMap/src/LineSeg.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Matrix3dMM.class" tooltip="MatrixMult.Matrix3dMM">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Transformations/C:\/Users\/Joshu0\/Downloads\/MatrixMult \(1).jar&lt;MatrixMult(Matrix3dMM.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Canvas.java" tooltip="DistanceOnMap/src/Canvas.java">
+<persistable path="/DistanceOnMap/src/Canvas.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Transformations.java" tooltip="Transformations/src/Transformations.java">
-<persistable path="/Transformations/src/Transformations.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Canvas.java" tooltip="Transformations/src/Canvas.java">
-<persistable path="/Transformations/src/Canvas.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Box.java" tooltip="Transformations/src/Box.java">
-<persistable path="/Transformations/src/Box.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DistanceOnMap.java" tooltip="DistanceOnMap/src/DistanceOnMap.java">
+<persistable path="/DistanceOnMap/src/DistanceOnMap.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point2f.java" tooltip="MultiLineDrawing/src/Point2f.java">
 <persistable path="/MultiLineDrawing/src/Point2f.java"/>
@@ -450,23 +460,29 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineSeg.java" tooltip="MultiLineDrawing/src/LineSeg.java">
 <persistable path="/MultiLineDrawing/src/LineSeg.java"/>
 </file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Canvas.java" tooltip="MultiLineDrawing/src/Canvas.java">
+<persistable path="/MultiLineDrawing/src/Canvas.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Vector3dMM.class" tooltip="MatrixMult.Vector3dMM">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Transformations/C:\/Users\/Joshu0\/Documents\/GitHub\/gog692\/JimMower_2014\/Transformations\/lib\/MatrixMult.jar&lt;MatrixMult(Vector3dMM.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Matrix3dMM.class" tooltip="MatrixMult.Matrix3dMM">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Transformations/C:\/Users\/Joshu0\/Documents\/GitHub\/gog692\/JimMower_2014\/Transformations\/lib\/MatrixMult.jar&lt;MatrixMult(Matrix3dMM.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Transformations.java" tooltip="Transformations/src/Transformations.java">
+<persistable path="/Transformations/src/Transformations.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Canvas.java" tooltip="Transformations/src/Canvas.java">
+<persistable path="/Transformations/src/Canvas.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Box.java" tooltip="Transformations/src/Box.java">
+<persistable path="/Transformations/src/Box.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineAnalysis.java" tooltip="MultiLineDrawing/src/LineAnalysis.java">
 <persistable path="/MultiLineDrawing/src/LineAnalysis.java"/>
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="CastPractice.class" tooltip="CastPractice">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=LineAnalysis/src\/CastPractice.jar&lt;(CastPractice.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Road.class" tooltip="Road">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=LineAnalysis/src\/Inheritancet.jar&lt;(Road.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Point2f.class" tooltip="Point2f">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=LineAnalysis/src\/Inheritancet.jar&lt;(Point2f.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="LineSeg.class" tooltip="LineSeg">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=LineAnalysis/src\/Inheritancet.jar&lt;(LineSeg.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Inheritance.class" tooltip="Inheritance">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=LineAnalysis/src\/Inheritancet.jar&lt;(Inheritance.class"/>
 </file>
 </mruList>
 </workbench>

@@ -1,0 +1,19 @@
+
+public class PointLatLng {
+	private float lat;
+	private float lng;
+	
+	public PointLatLng (float myLat, float myLng) {
+		lat = myLat;
+		lng = myLng; 
+	}
+	
+	public float getLat() {
+		return lat;
+	}
+	
+	public float getLng() {
+		return lng;
+	}
+
+}

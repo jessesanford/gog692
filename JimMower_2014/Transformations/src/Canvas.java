@@ -21,8 +21,7 @@ public class Canvas extends JComponent implements MouseListener, MouseMotionList
 		Graphics2D g2 = (Graphics2D)g; 
 		
 		for (int i = 0; i < boxes.size(); i++) {
-			
-			Box aBox = boxes.get(i); // where b is the int loop index variable
+			Box aBox = boxes.get(i); 
 			g2.drawLine((int)aBox.vertices.get(0).x + aBox.clickPoint.x,
 			       (int)aBox.vertices.get(0).y + aBox.clickPoint.y,
 			       (int)aBox.vertices.get(1).x + aBox.clickPoint.x,

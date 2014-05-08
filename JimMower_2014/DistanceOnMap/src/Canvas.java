@@ -18,6 +18,9 @@ public class Canvas extends JComponent implements MouseListener {
 	private BufferedImage bimg;
 	private Graphics g;
 	
+	int mapWidth = 1029;
+	int mapHeight = 518;
+	
 	int RADIUS = 10;
 	Point2f P1, P2;
 	
@@ -40,7 +43,28 @@ public class Canvas extends JComponent implements MouseListener {
 		addMouseListener(this);	
 	}
 	
+	private PointLatLng Point2fToPointLatLng(Point2f myPoint) {
+		
+		double lat = ((myPoint.getY() / (mapHeight / 180)) - 90) / -1;
+		double lng = myPoint.getX() / (mapWidth / 360) - 180;
+		
+		return new PointLatLng (lat, lng);
+	}
+	
+	public static double distFrom(double lat1, double lng1, double lat2, double lng2) {
+	    double earthRadius = 3958.75;
+	    double dLat = Math.toRadians(lat2-lat1);
+	    double dLng = Math.toRadians(lng2-lng1);
+	    double sindLat = Math.sin(dLat / 2);
+	    double sindLng = Math.sin(dLng / 2);
+	    double a = Math.pow(sindLat, 2) + Math.pow(sindLng, 2)
+	            * Math.cos(Math.toRadians(lat1)) * Math.cos(Math.toRadians(lat2));
+	    double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+	    double dist = earthRadius * c;
 
+	    return dist;
+	}
+	
 	public void paintComponent( Graphics g) {
 		Graphics2D g2 = (Graphics2D)g;
 
@@ -62,6 +86,14 @@ public class Canvas extends JComponent implements MouseListener {
 				LineSeg myCurrentLineSeg = lineSegs.get(i);
 				Point2f myPointP1 = myCurrentLineSeg.getP1();
 				Point2f myPointP2 = myCurrentLineSeg.getP2();
+				PointLatLng myPointLatLngP1 = Point2fToPointLatLng(myPointP1);
+				PointLatLng myPointLatLngP2 = Point2fToPointLatLng(myPointP2);
+				
+				double distance = distFrom(myPointLatLngP1.getLat(), myPointLatLngP1.getLng(), myPointLatLngP2.getLat(), myPointLatLngP2.getLng());
+				String distanceTxt = "Distance between Points is: " + String.valueOf(Math.round(distance));
+				
+				g2.drawString(distanceTxt, myPointP1.getX() + 5, myPointP1.getY() - 5);
+				
 				g2.fillArc((int) myPointP1.getX() - (RADIUS/2), (int) myPointP1.getY() - (RADIUS/2), RADIUS, RADIUS, 0, 360);
 				g2.fillArc((int) myPointP2.getX() - (RADIUS/2), (int) myPointP2.getY() - (RADIUS/2), RADIUS, RADIUS, 0, 360);
 				g2.drawLine((int) myPointP1.getX(), (int) myPointP1.getY(), (int) myPointP2.getX(), (int) myPointP2.getY());
